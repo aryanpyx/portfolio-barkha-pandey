@@ -1,0 +1,542 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@300;400;500;600;700&family=Playfair+Display:ital,wght@0,500;1,400&display=swap');
+
+.ft-root {
+  font-family: 'Nunito', sans-serif;
+  color: #2c2a1e;
+  background: #f9f6ef;
+  min-height: 100vh;
+  padding: 0;
+}
+
+.ft-nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 18px 32px;
+  background: #f9f6ef;
+  border-bottom: 1px solid #e0d9c8;
+}
+
+.ft-logo {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  font-size: 18px;
+  font-weight: 700;
+  color: #3b5e2a;
+  letter-spacing: -0.3px;
+}
+
+.ft-logo-leaf {
+  width: 28px;
+  height: 28px;
+  background: #4a7a32;
+  border-radius: 50% 0 50% 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.ft-nav-links {
+  display: flex;
+  gap: 28px;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.ft-nav-links a {
+  text-decoration: none;
+  font-size: 14px;
+  font-weight: 600;
+  color: #5a5440;
+  transition: color 0.2s;
+}
+
+.ft-nav-links a:hover { color: #3b5e2a; }
+
+.ft-nav-cta {
+  background: #4a7a32;
+  color: #fff !important;
+  padding: 9px 20px;
+  border-radius: 100px;
+  font-size: 14px !important;
+  font-weight: 700 !important;
+  transition: background 0.2s !important;
+}
+
+.ft-nav-cta:hover { background: #3b5e2a !important; }
+
+.ft-hero {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 0;
+  min-height: 460px;
+}
+
+.ft-hero-text {
+  padding: 56px 40px 56px 32px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.ft-tag {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  background: #e8f0df;
+  color: #3b5e2a;
+  font-size: 12px;
+  font-weight: 700;
+  padding: 5px 12px;
+  border-radius: 100px;
+  letter-spacing: 0.5px;
+  text-transform: uppercase;
+  margin-bottom: 20px;
+  width: fit-content;
+}
+
+.ft-hero h1 {
+  font-family: 'Playfair Display', serif;
+  font-size: 42px;
+  font-weight: 500;
+  line-height: 1.15;
+  color: #1e2a14;
+  margin: 0 0 16px;
+}
+
+.ft-hero h1 em {
+  font-style: italic;
+  color: #4a7a32;
+}
+
+.ft-hero p {
+  font-size: 15px;
+  color: #6b6248;
+  line-height: 1.7;
+  margin: 0 0 28px;
+  max-width: 380px;
+}
+
+.ft-hero-btns {
+  display: flex;
+  gap: 12px;
+  flex-wrap: wrap;
+}
+
+.ft-btn-primary {
+  background: #4a7a32;
+  color: #fff;
+  border: none;
+  padding: 13px 24px;
+  border-radius: 100px;
+  font-family: 'Nunito', sans-serif;
+  font-size: 14px;
+  font-weight: 700;
+  cursor: pointer;
+  transition: background 0.2s, transform 0.15s;
+}
+
+.ft-btn-primary:hover { background: #3b5e2a; transform: translateY(-1px); }
+
+.ft-btn-secondary {
+  background: transparent;
+  color: #4a7a32;
+  border: 2px solid #4a7a32;
+  padding: 11px 22px;
+  border-radius: 100px;
+  font-family: 'Nunito', sans-serif;
+  font-size: 14px;
+  font-weight: 700;
+  cursor: pointer;
+  transition: all 0.2s;
+}
+
+.ft-btn-secondary:hover { background: #e8f0df; }
+
+.ft-hero-img {
+  background: linear-gradient(135deg, #c8d8a8 0%, #9ab87a 40%, #6a8f4a 100%);
+  position: relative;
+  overflow: hidden;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.ft-hero-img-scene {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  inset: 0;
+}
+
+.ft-stats-bar {
+  background: #3b5e2a;
+  display: flex;
+  justify-content: space-around;
+  padding: 20px 32px;
+}
+
+.ft-stat {
+  text-align: center;
+  color: #fff;
+}
+
+.ft-stat-num {
+  font-size: 22px;
+  font-weight: 700;
+  display: block;
+}
+
+.ft-stat-label {
+  font-size: 12px;
+  opacity: 0.75;
+  letter-spacing: 0.4px;
+}
+
+.ft-section {
+  padding: 52px 32px;
+}
+
+.ft-section-header {
+  text-align: center;
+  margin-bottom: 36px;
+}
+
+.ft-section-header h2 {
+  font-family: 'Playfair Display', serif;
+  font-size: 30px;
+  font-weight: 500;
+  color: #1e2a14;
+  margin: 0 0 10px;
+}
+
+.ft-section-header p {
+  font-size: 15px;
+  color: #6b6248;
+  margin: 0;
+}
+
+.ft-badges {
+  display: flex;
+  justify-content: center;
+  gap: 12px;
+  flex-wrap: wrap;
+  margin-bottom: 40px;
+}
+
+.ft-badge {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  padding: 10px 18px;
+  border-radius: 100px;
+  font-size: 13px;
+  font-weight: 700;
+  border: 2px solid;
+  cursor: pointer;
+  transition: all 0.2s;
+}
+
+.ft-badge.organic { background: #e8f0df; color: #3b5e2a; border-color: #b4d190; }
+.ft-badge.vegan { background: #fff7e6; color: #7a5a10; border-color: #f0c56a; }
+.ft-badge.gluten { background: #fdecea; color: #8a2b1e; border-color: #f0a49a; }
+.ft-badge.local { background: #e8f4fb; color: #1a5a7a; border-color: #8ac8e8; }
+
+.ft-badge:hover { transform: translateY(-2px); }
+
+.ft-badge-icon {
+  width: 20px;
+  height: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.ft-products {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 20px;
+}
+
+.ft-product-card {
+  background: #fff;
+  border-radius: 16px;
+  overflow: hidden;
+  border: 1px solid #e8e1d2;
+  transition: transform 0.2s, box-shadow 0.2s;
+}
+
+.ft-product-card:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 8px 32px rgba(60,80,30,0.10);
+}
+
+.ft-product-img {
+  height: 140px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 56px;
+  position: relative;
+}
+
+.ft-product-body {
+  padding: 16px;
+}
+
+.ft-product-name {
+  font-size: 15px;
+  font-weight: 700;
+  color: #1e2a14;
+  margin: 0 0 4px;
+}
+
+.ft-product-farm {
+  font-size: 12px;
+  color: #8a7d62;
+  margin: 0 0 10px;
+}
+
+.ft-product-footer {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.ft-price {
+  font-size: 17px;
+  font-weight: 700;
+  color: #3b5e2a;
+}
+
+.ft-add-btn {
+  background: #4a7a32;
+  color: #fff;
+  border: none;
+  width: 32px;
+  height: 32px;
+  border-radius: 50%;
+  font-size: 20px;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: 'Nunito', sans-serif;
+  transition: background 0.15s, transform 0.15s;
+  line-height: 1;
+}
+
+.ft-add-btn:hover { background: #3b5e2a; transform: scale(1.1); }
+
+.ft-product-tags {
+  display: flex;
+  gap: 4px;
+  margin-bottom: 10px;
+  flex-wrap: wrap;
+}
+
+.ft-mini-tag {
+  font-size: 10px;
+  font-weight: 700;
+  padding: 2px 8px;
+  border-radius: 100px;
+  letter-spacing: 0.3px;
+}
+
+.mt-org { background: #e8f0df; color: #3b5e2a; }
+.mt-veg { background: #fff7e6; color: #7a5a10; }
+.mt-loc { background: #e8f4fb; color: #1a5a7a; }
+
+.ft-how {
+  background: #f0ece1;
+  padding: 52px 32px;
+}
+
+.ft-steps {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 16px;
+  position: relative;
+}
+
+.ft-step {
+  text-align: center;
+  padding: 24px 16px;
+}
+
+.ft-step-num {
+  width: 48px;
+  height: 48px;
+  border-radius: 50%;
+  background: #4a7a32;
+  color: #fff;
+  font-size: 20px;
+  font-weight: 700;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0 auto 14px;
+}
+
+.ft-step h3 {
+  font-size: 15px;
+  font-weight: 700;
+  color: #1e2a14;
+  margin: 0 0 6px;
+}
+
+.ft-step p {
+  font-size: 13px;
+  color: #6b6248;
+  margin: 0;
+  line-height: 1.6;
+}
+
+.ft-divider {
+  position: absolute;
+  top: 48px;
+  left: 12.5%;
+  width: 75%;
+  height: 2px;
+  background: repeating-linear-gradient(90deg, #b4d190 0, #b4d190 8px, transparent 8px, transparent 16px);
+  pointer-events: none;
+}
+
+.ft-sub-section {
+  padding: 52px 32px;
+  background: #fff;
+}
+
+.ft-sub-cards {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 16px;
+}
+
+.ft-sub-card {
+  border: 2px solid #e8e1d2;
+  border-radius: 16px;
+  padding: 24px;
+  text-align: center;
+  position: relative;
+  cursor: pointer;
+  transition: all 0.2s;
+  background: #fdfcf8;
+}
+
+.ft-sub-card:hover { border-color: #4a7a32; background: #f8fbf4; }
+.ft-sub-card.popular { border-color: #4a7a32; background: #f4f9ef; }
+
+.ft-popular-badge {
+  position: absolute;
+  top: -12px;
+  left: 50%;
+  transform: translateX(-50%);
+  background: #4a7a32;
+  color: #fff;
+  font-size: 11px;
+  font-weight: 700;
+  padding: 4px 14px;
+  border-radius: 100px;
+  white-space: nowrap;
+  letter-spacing: 0.3px;
+}
+
+.ft-sub-card h3 {
+  font-size: 17px;
+  font-weight: 700;
+  color: #1e2a14;
+  margin: 0 0 6px;
+}
+
+.ft-sub-price {
+  font-family: 'Playfair Display', serif;
+  font-size: 34px;
+  color: #3b5e2a;
+  margin: 12px 0 4px;
+}
+
+.ft-sub-price span {
+  font-family: 'Nunito', sans-serif;
+  font-size: 14px;
+  color: #8a7d62;
+}
+
+.ft-sub-desc {
+  font-size: 13px;
+  color: #6b6248;
+  margin: 0 0 16px;
+  line-height: 1.6;
+}
+
+.ft-sub-features {
+  list-style: none;
+  margin: 0 0 20px;
+  padding: 0;
+  text-align: left;
+}
+
+.ft-sub-features li {
+  font-size: 13px;
+  color: #3b5248;
+  padding: 4px 0;
+  display: flex;
+  align-items: center;
+  gap: 7px;
+}
+
+.ft-check {
+  color: #4a7a32;
+  font-size: 16px;
+  font-weight: 700;
+}
+
+.ft-footer {
+  background: #1e2a14;
+  color: #c8d8a8;
+  padding: 32px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.ft-footer-logo {
+  font-family: 'Playfair Display', serif;
+  font-size: 20px;
+  color: #e8f0df;
+  font-style: italic;
+}
+
+.ft-footer-links {
+  display: flex;
+  gap: 20px;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.ft-footer-links a {
+  text-decoration: none;
+  color: #a8b890;
+  font-size: 13px;
+  transition: color 0.2s;
+}
+
+.ft-footer-links a:hover { color: #e8f0df; }
+
+.cart-count {
+  background: #e05c2a;
+  color: #fff;
+  font-size: 11px;
+  font-weight: 700;
+  border-radius: 100px;
+  padding: 1px 7px;
+  margin-left: 4px;
+}
+
+.active-filter {
+  transform: scale(1.05);
+  box-shadow: 0 2px 12px rgba(74,122,50,0.2);
+}
