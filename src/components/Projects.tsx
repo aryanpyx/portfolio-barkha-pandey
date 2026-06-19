@@ -20,7 +20,7 @@ const WORK_SECTIONS = [
       { id: 'sp-4', title: 'Rights Awareness March', category: 'Yatra Campaign', height: 'h-80', color: 'bg-sky-700', image: '/images/political/poster-4.jpg' },
       { id: 'sp-5', title: 'International Relations', category: 'News Update', height: 'h-72', color: 'bg-red-800', image: '/images/political/poster-5.png' },
       { id: 'sp-6', title: 'Education System Trap', category: 'Social Issue Thumbnail', height: 'h-96', color: 'bg-red-900', image: '/images/political/poster-6.png' },
-      { id: 'sp-7', title: 'Political Poster 7', category: 'Political Campaign', height: 'h-[32rem]', color: 'bg-orange-700', image: '/images/political/poster-7.png' },
+      { id: 'sp-7', title: 'Political Poster 7', category: 'Political Campaign', height: 'h-[32rem]', color: 'bg-orange-700', image: '/images/political/poster-7.jpeg' },
       { id: 'sp-8', title: 'Political Poster 8', category: 'Political Campaign', height: 'h-[30rem]', color: 'bg-blue-700', image: '/images/political/poster-8.jpeg' },
       { id: 'sp-9', title: 'Political Poster 9', category: 'Political Campaign', height: 'h-96', color: 'bg-green-700', image: '/images/political/poster-9.jpeg' },
       { id: 'sp-10', title: 'Political Poster 10', category: 'Political Campaign', height: 'h-80', color: 'bg-purple-700', image: '/images/political/poster-10.jpeg' },
