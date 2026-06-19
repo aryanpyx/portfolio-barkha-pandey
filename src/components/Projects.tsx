@@ -28,7 +28,6 @@ const WORK_SECTIONS = [
       { id: 'sp-13', title: 'Political Poster 13', category: 'Political Campaign', height: 'h-96', color: 'bg-indigo-700', image: '/images/political/poster-13.jpeg' },
       { id: 'sp-14', title: 'Political Poster 14', category: 'Political Campaign', height: 'h-[32rem]', color: 'bg-gray-700', image: '/images/political/poster-14.jpeg' },
       { id: 'sp-15', title: 'Bhagalpur Campaign', category: 'Political Campaign', height: 'h-[32rem]', color: 'bg-green-700', image: '/images/political/poster-15.jpeg' },
-      { id: 'sp-16', title: 'Mahila Suraksha Campaign', category: 'Political Campaign', height: 'h-96', color: 'bg-blue-700', image: '/images/political/poster-16.jpeg' },
       { id: 'sp-17', title: 'PDA Movement', category: 'Political Campaign', height: 'h-[30rem]', color: 'bg-red-700', image: '/images/political/poster-17.png' },
     ]
   },
