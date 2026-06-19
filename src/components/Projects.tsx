@@ -10,28 +10,26 @@ const WORK_SECTIONS = [
     title: 'UI Works',
     projects: [
       { id: 'ui-1', title: 'Fieldroot Landing Page', category: 'Grocery Delivery UI', height: 'h-96', color: 'bg-[#4a7a32]', redirect: '/fieldroot', image: '/images/ui/fieldroot.png' },
-      { id: 'ui-2', title: 'E-Commerce Dashboard', category: 'Web UI', height: 'h-72', color: 'bg-blue-800' },
-      { id: 'ui-3', title: 'Healthcare Portal', category: 'UX/UI Design', height: 'h-[30rem]', color: 'bg-teal-600' },
-      { id: 'ui-4', title: 'Smart Home App', category: 'Interface Design', height: 'h-80', color: 'bg-indigo-600' },
     ]
   },
   {
     title: 'Social/Political Posters',
     projects: [
-      { id: 'sp-1', title: 'Infrastructure & Pilgrimage', category: 'Political Campaign', height: 'h-[32rem]', color: 'bg-orange-600', image: '/images/political/poster-1.jpg' },
       { id: 'sp-2', title: 'Gratitude Message', category: 'Election Poster', height: 'h-96', color: 'bg-orange-500', image: '/images/political/poster-2.jpg' },
       { id: 'sp-3', title: 'Free Electricity Promise', category: 'Manifesto Poster', height: 'h-[30rem]', color: 'bg-blue-600', image: '/images/political/poster-3.jpg' },
       { id: 'sp-4', title: 'Rights Awareness March', category: 'Yatra Campaign', height: 'h-80', color: 'bg-sky-700', image: '/images/political/poster-4.jpg' },
       { id: 'sp-5', title: 'International Relations', category: 'News Update', height: 'h-72', color: 'bg-red-800', image: '/images/political/poster-5.png' },
       { id: 'sp-6', title: 'Education System Trap', category: 'Social Issue Thumbnail', height: 'h-96', color: 'bg-red-900', image: '/images/political/poster-6.png' },
-      { id: 'sp-7', title: 'Political Poster 7', category: 'Political Campaign', height: 'h-[32rem]', color: 'bg-orange-700', image: '/images/political/poster-7.jpeg' },
+      { id: 'sp-7', title: 'Political Poster 7', category: 'Political Campaign', height: 'h-[32rem]', color: 'bg-orange-700', image: '/images/political/poster-7.png' },
       { id: 'sp-8', title: 'Political Poster 8', category: 'Political Campaign', height: 'h-[30rem]', color: 'bg-blue-700', image: '/images/political/poster-8.jpeg' },
       { id: 'sp-9', title: 'Political Poster 9', category: 'Political Campaign', height: 'h-96', color: 'bg-green-700', image: '/images/political/poster-9.jpeg' },
       { id: 'sp-10', title: 'Political Poster 10', category: 'Political Campaign', height: 'h-80', color: 'bg-purple-700', image: '/images/political/poster-10.jpeg' },
       { id: 'sp-11', title: 'Political Poster 11', category: 'Political Campaign', height: 'h-[32rem]', color: 'bg-red-700', image: '/images/political/poster-11.jpeg' },
-      { id: 'sp-12', title: 'Political Poster 12', category: 'Political Campaign', height: 'h-[30rem]', color: 'bg-teal-700', image: '/images/political/poster-12.jpeg' },
       { id: 'sp-13', title: 'Political Poster 13', category: 'Political Campaign', height: 'h-96', color: 'bg-indigo-700', image: '/images/political/poster-13.jpeg' },
       { id: 'sp-14', title: 'Political Poster 14', category: 'Political Campaign', height: 'h-[32rem]', color: 'bg-gray-700', image: '/images/political/poster-14.jpeg' },
+      { id: 'sp-15', title: 'Bhagalpur Campaign', category: 'Political Campaign', height: 'h-[32rem]', color: 'bg-green-700', image: '/images/political/poster-15.jpeg' },
+      { id: 'sp-16', title: 'Mahila Suraksha Campaign', category: 'Political Campaign', height: 'h-96', color: 'bg-blue-700', image: '/images/political/poster-16.jpeg' },
+      { id: 'sp-17', title: 'PDA Movement', category: 'Political Campaign', height: 'h-[30rem]', color: 'bg-red-700', image: '/images/political/poster-17.png' },
     ]
   },
   {
